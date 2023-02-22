@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[database connected]]>
+    </line>
+    <line>
+      <![CDATA[browser launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[logged in successfully]]>
+    </line>
+    <line>
+      <![CDATA[assertion pass]]>
+    </line>
+    <line>
+      <![CDATA[logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[database disconnected]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-22T08:55:29 IST" name="Default suite" finished-at="2023-02-22T08:56:01 IST" duration-ms="31929">
+    <groups>
+    </groups>
+    <test started-at="2023-02-22T08:55:29 IST" name="Default test" finished-at="2023-02-22T08:56:01 IST" duration-ms="31929">
+      <class name="com.Actitime.Testscripts.CreateCustomer">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:55:29 IST" name="databaseconnection" finished-at="2023-02-22T08:55:29 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:55:29 IST" name="launchBrowser" finished-at="2023-02-22T08:55:43 IST" duration-ms="13843" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToActitime()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:55:43 IST" name="loginToActitime" finished-at="2023-02-22T08:55:44 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToActitime -->
+        <test-method signature="createCustomer()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:55:44 IST" name="createCustomer" finished-at="2023-02-22T08:55:56 IST" duration-ms="12327" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[assertion pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="logoutFromActitime()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:55:56 IST" name="logoutFromActitime" finished-at="2023-02-22T08:56:01 IST" duration-ms="4729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromActitime -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:56:01 IST" name="closeBrowser" finished-at="2023-02-22T08:56:01 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="databasedisconnection()[pri:0, instance:com.Actitime.Testscripts.CreateCustomer@7fee8714]" started-at="2023-02-22T08:56:01 IST" name="databasedisconnection" finished-at="2023-02-22T08:56:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[database disconnected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- databasedisconnection -->
+      </class> <!-- com.Actitime.Testscripts.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
